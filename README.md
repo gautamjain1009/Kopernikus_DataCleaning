@@ -10,7 +10,7 @@ The program aims to identify and remove similar-looking images in a folder by co
 ### Determining input parameter values: ###
 * The input parameters in the program, such as the threshold and minimum contour area, need to be determined based on the characteristics of your dataset. These values impact the sensitivity of the comparison and the criteria for considering images as similar or different. 
 * To determine the values, you can use techniques such as statistical analysis, manual inspection of sample frames, or experimentation with different values.
-*  Determine_parameters functions provided demonstrate approaches for automatically determining these values.
+*  'Determine_parameters' functions provided demonstrate approaches for automatically determining these values.
 
 ### Improving data collection of unique cases ###
 * To improve data collection of unique cases in the future, you can consider the following:
