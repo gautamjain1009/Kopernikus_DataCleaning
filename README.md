@@ -5,7 +5,7 @@
   
 
 ### Program Workflow: ###
-The program aims to identify and remove similar-looking images in a folder by comparing consecutive frames. It utilizes the compare_frames_change_detection function, which calculates a score indicating the difference between two frames. Based on the score, images can be identified as duplicates or with minor differences and considered non-essential. The program processes the images, compares them, and removes the similar ones. 
+The program aims to identify and remove similar-looking images in a folder by comparing consecutive frames. It utilizes the `compare_frames_change_detection` function, which calculates a score indicating the difference between two frames. Based on the score, images can be identified as duplicates or with minor differences and considered non-essential. The program processes the images, compares them, and removes the similar ones. 
   
 ### Determining input parameter values: ###
 * The input parameters in the program, such as the threshold and minimum contour area, need to be determined based on the characteristics of your dataset. These values impact the sensitivity of the comparison and the criteria for considering images as similar or different. 
